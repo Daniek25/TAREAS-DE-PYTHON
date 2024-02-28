@@ -1,0 +1,27 @@
+# 4.Realizar un programa que filtre si eres apto para registrar un negocio ,condiciones: mayor de edad , tener ruc y tener un nombre comercial ,los inputs son si y /o no . la salida debe ser si esta apto o no para abrir un comercio.
+print("\n")
+Edad = input("¿Eres mayor de edad? (si/no):  ")
+if Edad == "si":
+    a=input("\nIngrese su edad:")
+    print("\n")
+    
+Ruc = input("¿Tienes RUC? (si/no):  ")
+if Edad == "si":
+    b=input("\nIngrese su RUC:")
+    print("\n")
+Nombrecomercial = input("¿Tienes un nombre comercial? (si/no):  ")
+if Edad == "si":
+    c=input("\nIngrese su nombre de su comercio:")
+    print("\n")
+    
+if Edad == "si" and Ruc == "si" and Nombrecomercial == "si":
+    print("\nUsted es apto para abrir un comercio.")
+    print("\n")
+else:
+    print("\nNo apto para abrir un comercio y estos son sus datos .")
+    print(a,b,c)
+    print("\n")
+    
+
+    
+

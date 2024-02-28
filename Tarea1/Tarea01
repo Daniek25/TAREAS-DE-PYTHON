@@ -1,0 +1,13 @@
+#1.Realizar un programa que pida tus datos personales y mostrar en pantalla los datos solisp
+Nombre_Apellido=input("Escriba su Nombre y Apellido:  ")
+Número_Celular=input("Escriba su Número de celular:  ")
+Edad=input("Escriba su edad:  ")
+Correo=input("Escriba su correo electronico:  ")
+
+print("\nSus datos son los siguiente:  ")
+
+print("\nNombre y Apellido: ",Nombre_Apellido)
+print("Número de celular: ",Número_Celular)
+print("Edad: ",Edad)
+print("Correo electronico: ",Correo)
+print("Tus datos son: ",Nombre_Apellido,Número_Celular,Edad,Correo)

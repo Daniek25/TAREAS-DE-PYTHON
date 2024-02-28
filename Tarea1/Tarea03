@@ -1,0 +1,12 @@
+# 3.Realizar un programa que nos pida el ingreso total de un hogar y vaya pidiendo posibles gastos . Como resultado debe decir  todos los egresos y el ahorro.
+
+Ingreso_Total=int(input("Ingreso total de tú hogar:  "))
+Gasto1=int(input("\nTGasto en alimentación:  "))
+Gasto2=int(input("Gasto en transporte:  "))
+Gasto3=int(input("Gasto en entretenimiento:  "))
+Gasto4=int(input("Gasto en seguros:  "))
+Gasto5=int(input("Gasto en deudas:  "))
+Total_Gasto=Gasto1+Gasto2+Gasto3+Gasto4+Gasto5
+print("\nTotal de egresos:",Total_Gasto)
+print("\nTotal de ahorro:",Ingreso_Total-Total_Gasto)
+

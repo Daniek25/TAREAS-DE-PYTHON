@@ -1,0 +1,33 @@
+# 2.Realizar un programa que calcule el area y el perimetro de un poligono a tu eleccion( triangulo , cuadrado , circulo)
+print("1 = Triangulo")
+print("2 = Cuadrado")
+print("3 = Círculo")
+
+m=int(input("Elija el Poligono de su eleccion: "))
+if m == 1:
+    
+    a=int(input("Ingrese la altura del triangulo: "))
+    b=int(input("Ingrese la base del triangulo: "))
+    area=a*b
+    Perimetro=2*(a+b)
+    print("\nEl área del triangulo es : ",area)
+    print("El perimetro del triangulo es : ",Perimetro)
+    
+if m == 2:
+       l=int(input("Ingrese el lado del Cuadrado: "))
+       area=l*l
+       Perimetro=4*l
+       print("\nEl área del cuadrado es : ",area)
+       print("El perimetro del cuadrado es : ",Perimetro)
+    
+        
+if m == 3:
+       r=float(input("Ingrese el radio del Círculo: "))
+       area=(3.1416)*(r*r)
+       Perimetro=2*(3.1416)*r
+       print("\nEl área del Círculo es : ",area)
+       print("El perimetro del Círculo es : ",Perimetro)   
+
+else :
+       print("Porfavor ingrese uno de los números")
+       
