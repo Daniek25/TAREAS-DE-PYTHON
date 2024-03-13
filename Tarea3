@@ -1,0 +1,14 @@
+try:
+    # Código que puede generar errores
+    resultado = 0 / 814.8
+except ZeroDivisionError as zd_err:
+    print("Error de división por cero:", zd_err)
+except ValueError as v_err:
+    print("Error de valor:", v_err)
+except IndexError as i_err:
+    print("Error de índice:", i_err)
+# Agrega más bloques except según sea necesario para manejar otros tipos de errores específicos
+else:
+    print("No se ha producido ningún error.")
+finally:
+    print("Fin del manejo de errores.")
